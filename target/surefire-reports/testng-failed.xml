@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="driver.listeners"/>
+    <listener class-name="driver.ExtentReporterNG"/>
+  </listeners>
+  <test name="Personal_loanCreation(failed)">
+    <classes>
+      <class name="LoanTapApplication.Personal_loanCreation">
+        <methods>
+          <include name="LoanTapHomePage"/>
+          <include name="textverify"/>
+          <include name="selectPersonalLoan"/>
+          <include name="textverify1"/>
+          <include name="tearDown"/>
+          <include name="applyNow"/>
+          <include name="getAmount"/>
+          <include name="pLoanmenu"/>
+          <include name="claimsLaunch"/>
+        </methods>
+      </class> <!-- LoanTapApplication.Personal_loanCreation -->
+    </classes>
+  </test> <!-- Personal_loanCreation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
